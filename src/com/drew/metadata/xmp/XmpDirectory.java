@@ -20,13 +20,12 @@
  */
 package com.drew.metadata.xmp;
 
-import com.adobe.xmp.XMPMeta;
+import java.util.HashMap;
+import java.util.Map;
+
 import com.drew.lang.annotations.NotNull;
 import com.drew.lang.annotations.Nullable;
 import com.drew.metadata.Directory;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /** @author Torsten Skadell, Drew Noakes http://drewnoakes.com */
 public class XmpDirectory extends Directory
